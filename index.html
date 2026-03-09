@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sachin Kumar | AI Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="three-bg"></div>
+
+<header>
+
+<nav>
+
+<h2>Sachin.dev</h2>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<button id="modeToggle">🌙</button>
+
+</nav>
+
+</header>
+
+<section id="home">
+
+<h1>Hello I'm <span>Sachin Kumar</span></h1>
+
+<p>AI Developer | Frontend Developer</p>
+
+<a href="assets/resume.pdf" download>
+<button>Download Resume</button>
+</a>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<canvas id="skillsChart"></canvas>
+
+</section>
+
+<section id="projects">
+
+<h2>GitHub Projects</h2>
+
+<div id="github-projects"></div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<form>
+
+<input placeholder="Name">
+
+<input placeholder="Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button>Send</button>
+
+</form>
+
+</section>
+
+<div id="chatbot">
+
+<div id="chat-header">AI Assistant</div>
+
+<div id="chat-messages"></div>
+
+<input id="chat-input" placeholder="Ask something...">
+
+</div>
+
+<script src="three.js"></script>
+<script src="main.js"></script>
+<script src="github.js"></script>
+<script src="chatbot.js"></script>
+
+</body>
+</html>
